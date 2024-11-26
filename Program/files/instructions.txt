@@ -1,0 +1,26 @@
+
+Enciclopédia para ajudar jogadores que precisem de ajuda. No momento, ela contém algumas páginas, todas estruturadas em uma hierarquia bem definida, salva em um arquivo de texto(wiki.txt). A enciclopédia começa na página Home, que contém as subcategorias Monsters, separados por Dungeons, e Cards, separados por Arquétipos.
+
+Para melhor entender como os jogadores acessam a enciclopédia e quais páginas são mais importantes, foram registrados os acessos dos usuários em um arquivo de texto(log.txt). Neste arquivo, cada linha representa o acesso de um único usuário, e cada caracter as ações tomadas por este usuário:
+
+Um acesso sempre se inicia na página inicial (Home).
+Um caracter numérico(0-9) significa que o usuário navegou para uma subcategoria da página atual, usando o caracter como índice.
+Se o caracter é 'b', significa que o usuário voltou para a categoria anterior, pai da página em que está.
+ 
+
+Atividade:
+
+Descubra a página mais visitada das seguintes categorias:
+
+Monstros, independente da Dungeon
+Cartas, independente do arquétipo
+
+
+Exemplo: 001b2 = Monsters > Dune Dome > Barb Wasp > Dune Dome > Mummy
+
+Home
+.Monsters 0
+..Dune Dome 0
+...Dune Slime 0
+...Barb Wasp 1
+...Mummy 2
